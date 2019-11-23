@@ -74,7 +74,7 @@ private:
 /** zip
  *  Equivalent of python's zip
  *  Called as :
- *      for (const auto& [a, b, ...] : zip(v0, v1, ...)) with v0, v1, ... any iterable container
+ *      for (const auto& [a, b, ...] : zip(v0, v1, ...)) with v0, v1, ... any random access container
  */
 template <typename ...Args>
 class zip
